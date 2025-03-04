@@ -25,7 +25,7 @@ The Sports Betting Scraper is a robust Python script designed to extract live be
 
   
 
-### Prerequisites
+### Pre-requisites
 
 - Python 3.8 or above
 
@@ -62,9 +62,8 @@ pip install -r requirements.txt
 ```bash
 
 BASE_URL=https://veri.bet/odds-picks
-
 SCRAPE_INTERVAL=15
-
+MAX_RETRIES=3
 ```
 
   
